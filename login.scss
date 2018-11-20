@@ -1,0 +1,44 @@
+page-login {
+    ion-content{
+        background-image: url('../../assets/imgs/nasa-53884-unsplash.jpg') ;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        background-size: cover;
+        width: 1000px;
+        animation: mundo 50s infinite;
+        animation-direction: normal;
+    } 
+
+@keyframes mundo {
+    100% {  
+        transform: translateX(-13.6666%);  
+      }
+}
+  ion-item.user{
+      height: 65px;
+      left: 20px;
+      top:40%;
+      max-width: 90%;
+      text-align: center;
+      border-radius: 15px 15px 0px 0px;
+    }
+
+    ion-item.password{ 
+        height: 65px;  
+        left: 20px;
+        top:40%;
+        max-width: 90%;
+        text-align: center;
+        border-radius: 0px 0px 15px 15px;
+    }
+
+    ion-button{ 
+        height: 65px;  
+        left: 20px;
+        top:50%;
+        max-width: 90%;
+        text-align: center;
+        border-radius: 0px 0px 15px 15px;
+    }
+  
+}
